@@ -1,0 +1,37 @@
+{
+  "name": "loopback-component-storage-qiniu",
+  "version": "1.0.0",
+  "description": "使用strongloop访问七牛云存储",
+  "main": "index.js",
+  "dependencies": {
+	"async": "~0.9.0",
+    "formidable": "~1.0.14",
+    "qiniu": ">= 6.0.0"
+  },
+  "devDependencies": {
+	"express": "~3.4.0",
+    "loopback": "1.x.x",
+    "mkdirp": "~0.5.0",
+    "mocha": "~1.18.2",
+    "supertest": "~0.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijingwei9060/loopback-component-sorage-qiniu.git"
+  },
+  "keywords": [
+    "qiniu",
+    "七牛",
+    "strongloop",
+    "loopback"
+  ],
+  "author": "lijingwei9060@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lijingwei9060/loopback-component-sorage-qiniu/issues"
+  },
+  "homepage": "https://github.com/lijingwei9060/loopback-component-sorage-qiniu#readme"
+}
