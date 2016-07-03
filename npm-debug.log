@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\lijin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '--tag',
+1 verbose cli   '1.0.1' ]
+2 info using npm@2.15.6
+3 info using node@v6.2.1
+4 verbose publish [ '.' ]
+5 verbose stack Error: Tag name must not be a valid SemVer range: 1.0.1
+5 verbose stack     at EventEmitter.publish (C:\Users\lijin\AppData\Roaming\npm\node_modules\.npm_npminstall\npm\2.15.6\npm\lib\publish.js:41:14)
+5 verbose stack     at Object.commandCache.(anonymous function) (C:\Users\lijin\AppData\Roaming\npm\node_modules\.npm_npminstall\npm\2.15.6\npm\lib\npm.js:220:11)
+5 verbose stack     at EventEmitter.<anonymous> (C:\Users\lijin\AppData\Roaming\npm\node_modules\.npm_npminstall\npm\2.15.6\npm\bin\npm-cli.js:72:28)
+5 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:67:7)
+5 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+6 verbose cwd F:\source\temp\loopback-component-sorage-qiniu
+7 error Windows_NT 10.0.14372
+8 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\lijin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "1.0.1"
+9 error node v6.2.1
+10 error npm  v2.15.6
+11 error Tag name must not be a valid SemVer range: 1.0.1
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
